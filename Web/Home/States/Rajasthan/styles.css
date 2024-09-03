@@ -19754,8 +19754,9 @@ span.select-currency:after {
     }
 }
 
-https:\\pmstgclt.atlassian.net/browse/
+https:\\pmstgclt.atlassian.net/browse/{
 @mediaonly screen and (min-width:768px).witness-history-left{padding:0 !important}
+}
 
 .experience-section .experience-item {
     margin-bottom: 10px;
