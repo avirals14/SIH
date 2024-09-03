@@ -23,6 +23,6 @@ body {
     height: auto;
     cursor: pointer;
     overflow: hidden;
-    filter: drop-shadow(3px 3px 7px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(10px 10px 14px rgba(0, 0, 0, 0.5));
 }
 
