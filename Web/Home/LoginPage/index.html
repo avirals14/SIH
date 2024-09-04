@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Ethnic Login & Signup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <input type="radio" id="login" name="toggle" checked>
+            <input type="radio" id="signup" name="toggle">
+            <div class="button-box">
+                <label for="login">Login</label>
+                <label for="signup">Signup</label>
+            </div>
+            <form id="loginForm" class="login-box">
+                <h2>Login</h2>
+                <label for="loginEmail">Email</label>
+                <input type="email" id="loginEmail" name="loginEmail" placeholder="Enter your email" required>
+                
+                <label for="loginPassword">Password</label>
+                <div class="password-container">
+                    <input type="password" id="loginPassword" name="loginPassword" placeholder="Enter your password" required>
+                    <span class="toggle-password" onclick="togglePasswordVisibility('loginPassword', this)">
+                        &#128065;
+                    </span>
+                </div>
+                
+                <button type="submit">Login</button>
+            </form>
+            <form id="signupForm" class="signup-box">
+                <h2>Signup</h2>
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+                
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter a username" required>
+                
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                
+                <label for="signupEmail">Email</label>
+                <input type="email" id="signupEmail" name="signupEmail" placeholder="Enter your email" required>
+                
+                <label for="signupPassword">Password</label>
+                <div class="password-container">
+                    <input type="password" id="signupPassword" name="signupPassword" placeholder="Enter your password" required>
+                    <span class="toggle-password" onclick="togglePasswordVisibility('signupPassword', this)">
+                        &#128065;
+                    </span>
+                </div>
+                
+                <button type="submit">Signup</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
