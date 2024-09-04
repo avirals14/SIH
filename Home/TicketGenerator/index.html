@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Museum Ticket Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="ticket-container">
+        <h1>India Museum Ticket Generator</h1>
+        
+        <label for="museum">Choose a Museum:</label>
+        <select id="museum"></select>
+        
+        <p><strong>Museum Name:</strong> <span id="museumName"></span></p>
+        <p><strong>Location:</strong> <span id="location"></span></p>
+        <p><strong>Description:</strong> <span id="description"></span></p>
+        <p><strong>Ticket Number:</strong> <span id="ticketNumber"></span></p>
+        <p><strong>Name:</strong> <input type="text" id="name" placeholder="Enter your name"></p>
+        <p><strong>Phone Number:</strong> <input type="text" id="phone" placeholder="Enter your phone number"></p>
+        <p><strong>Date:</strong> <span id="date"></span></p>
+        <div id="qrcode"></div>
+        <button onclick="generateTicket()">Generate Ticket</button>
+        <button onclick="downloadTicket()">Download Ticket</button>
+    </div>
+    
+    <script src="qr.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

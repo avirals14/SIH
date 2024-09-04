@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickable India Map</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.unpkg.com/boxicons@2.1.4/css/boxicons.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <img src=" " alt="Indian Heritage Logo">
+                </a>
+                <div class="navigation" id="navigation">
+                    <a href="#" class="link">Home</a>
+                    <a href="#india-map" class="link">About Us</a>
+                    <a href="#" class="link">FAQ's</a>
+                    <a href="#" class="link">Contact Us</a>
+                    <a href="LoginPage/index.html" class="link">Login</a>
+                    <input class="search" class="search-input" type="search" placeholder="Search">
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="map-container">
+        <!-- SVG Map of India -->
+        <object type="image/svg+xml" data="india-map.svg" id="india-map"></object>
+    </div>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
